@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 
 
-def Button9():
+def Button12():
     try:
         result = entry.get()
         if result != None:
@@ -50,7 +50,7 @@ button13 = tk.Button(root, borderwidth=4, bg="#3E4248", command=lambda: entry.in
     tk.END, 9), text="9", font=("arial", 18), width=4)
 button13.grid(row=2, column=2)
 
-button12 = tk.Button(root, borderwidth=4, bg="#3E4248", command=Button9, text="=", font=(
+button12 = tk.Button(root, borderwidth=4, bg="#3E4248", command=Button12, text="=", font=(
     "arial", 18), width=4, fg="white")
 button12.grid(row=2, column=3)
 
